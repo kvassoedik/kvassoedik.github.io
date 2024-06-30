@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvassoedik/portfolio.git"
+  },
+  "author": "kvassoedik",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.18.0",
+    "tslib": "^2.6.3"
+  },
+
+  "dependencies": {
+    "date-fns": "^3.6.0"
+  }
+}

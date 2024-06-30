@@ -1,0 +1,250 @@
+header {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 0;
+    padding-right: 0;
+    background-image: url("../icons/header.png");
+    background-repeat: repeat-x;
+    width: 100%;
+    top: 0;
+    height: 160px;
+}
+
+header h1 {
+    text-align: center;
+    width: 460px;
+    height: 40px;
+    padding: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../icons/h1.png");
+    background-repeat: repeat-x;
+
+    color: #822F22;
+    font-family: "Pixelify Sans", sans-serif;
+
+    font-size:xx-large;
+    margin-bottom: 0;
+}
+#main-nav {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size:xx-large;
+    text-align: center;
+    background-color: #F1C585;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+    margin-top: 0;
+
+    height: 200px;
+    border: solid 8px #D18A4F;
+    left:20px;
+    position: absolute;
+}
+#sec-nav {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size:xx-large;
+    text-align: center;
+    background-color: #F1C585;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+    margin-top: 250px;
+
+    min-height: 60px;
+    border: solid 8px #D18A4F;
+    left:20px;
+    position: absolute;
+}
+
+nav a {
+    margin-top: 15px;
+    display: block;
+    color: #9B4D2F;
+}
+
+
+aside {
+    margin-left: 0;
+    display: inline-block;
+}
+
+main {
+    margin-bottom: 800px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+main .box {
+    columns:2;
+    column-gap: 30px;
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size:x-large;
+    text-align:justify;
+    background-color: #F1C585;
+    color: #822F22;
+    padding: 15px 30px 30px 30px;
+
+    margin-left: 270px;
+    margin-right: 0;
+    margin-bottom: 300px;
+    margin-top: 15px;
+
+    right: 20px;
+    left: 0;
+
+    min-height: 400px;
+    min-width: 500px;
+
+    border: solid 8px #D18A4F;
+    position: absolute;
+    display: inline-block;
+}
+
+
+
+main .box-main {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size:x-large;
+    text-align:justify;
+    background-color: #F1C585;
+    color: #822F22;
+    padding: 15px 30px 30px 30px;
+
+    margin-left: 270px;
+    margin-right: 0;
+    margin-bottom: 300px;
+    margin-top: 15px;
+
+    right: 20px;
+    left: 0;
+    min-height: 400px;
+    min-width: 500px;
+
+    border: solid 8px #D18A4F;
+    position: absolute;
+    display: inline;
+}
+
+main #box-comics {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size:x-large;
+    text-align:justify;
+    background-color: #F1C585;
+    color: #822F22;
+    padding: 15px 30px 30px 30px;
+
+    margin-left: 270px;
+    margin-right: 20px;
+    margin-bottom: 300px;
+    margin-top: 0px;
+
+    right: 20px;
+    left: 0;
+    min-height: 100px;
+    min-width: 500px;
+
+    border: solid 8px #D18A4F;
+    /* position: absolute; */
+}
+
+.info {
+    display: inline-block;
+}
+
+a {
+    margin: 20px;
+    text-decoration: none;
+}
+
+img.icon {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+
+img.pic {
+    width: 150px;
+    height: 150px;
+}
+
+body {
+    background-color: #28ADCF;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+footer {
+    background-color: #36AE7C;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    height: 80px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-image: url("../icons/footer.png");
+    background-repeat: repeat-x repeat-y;
+}
+
+footer div {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flexbox;
+}
+
+
+#coop {
+    text-decoration: underline;
+    color: #822F22;
+    margin: 0 0 0 0;
+}
+
+
+#current-nav {
+    color: #822F22;
+    
+}
+
+
+#email-text {
+    color: #822F22;
+    border: #D18A4F 3px solid;
+    background-color: #F1C585;
+    min-width: 300px;
+    min-height: 25px;
+    margin-left: 10px;
+    font-size: large;
+}
+
+#get-comics-btn {
+    background-color: #822F22;
+    color:#F1C585;
+    width: 150px;
+    min-height: 20px;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #9B4D2F;
+    cursor: pointer;
+}
+
+#comics-img {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#error-msg {
+    color: red;
+}
