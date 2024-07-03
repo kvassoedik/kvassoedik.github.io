@@ -1,0 +1,41 @@
+#main-nav {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size:xx-large;
+    text-align: center;
+    background-color: #F1C585;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+    margin-top: 250px;
+  
+    height: 200px;
+    border: solid 8px #D18A4F;
+    left:20px;
+    position: absolute;
+  }
+  #sec-nav {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size:xx-large;
+    text-align: center;
+    background-color: #F1C585;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+    margin-top: 500px;
+  
+    min-height: 60px;
+    border: solid 8px #D18A4F;
+    left:20px;
+    position: absolute;
+  }
+  
+  nav a {
+    margin-top: 15px;
+    display: block;
+    color: #9B4D2F;
+  }
+  
+  aside {
+    margin-left: 0;
+    display: inline-block;
+  }

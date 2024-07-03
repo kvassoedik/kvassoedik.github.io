@@ -1,0 +1,54 @@
+#email-text {
+    color: #822F22;
+    border: #D18A4F 3px solid;
+    background-color: #F1C585;
+    min-width: 300px;
+    min-height: 25px;
+    margin-left: 10px;
+    font-size: large;
+}
+
+#get-comics-btn {
+    background-color: #822F22;
+    color:#F1C585;
+    width: 150px;
+    min-height: 20px;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #9B4D2F;
+    cursor: pointer;
+}
+
+#comics-img {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#error-msg {
+    color: red;
+}
+
+#box-comics {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size:x-large;
+    text-align:justify;
+    background-color: #F1C585;
+    color: #822F22;
+    padding: 15px 30px 30px 30px;
+
+    margin-left: 270px;
+    margin-right: 20px;
+    margin-bottom: 300px;
+    margin-top: 15px;
+
+    right: 20px;
+    left: 0;
+    min-height: 100px;
+    min-width: 500px;
+
+    border: solid 8px #D18A4F;
+    /* position: absolute; */
+}
