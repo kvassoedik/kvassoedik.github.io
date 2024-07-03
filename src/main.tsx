@@ -14,7 +14,7 @@ export default function Main() {
     <Route path="/" element={<Navigation />}>
     <Route index element={<MainPage />} />
     <Route path="about" element={<AboutPage />} />
-    <Route path="portfolio" element={<PortfolioPage />} />
+    <Route path="projects" element={<PortfolioPage />} />
     <Route path="comics" element={<ComicsPage />} />
     </Route>
   </Routes>

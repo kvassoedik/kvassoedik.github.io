@@ -9,7 +9,7 @@ export default function Navigation() {
                         <Link to="/">Main page</Link>
 
                         <Link to="/about">About me</Link>
-                        <Link to="/portfolio">Portfolio</Link>
+                        <Link to="/projects">Portfolio</Link>
 
             </nav>
             <nav id="sec-nav">
