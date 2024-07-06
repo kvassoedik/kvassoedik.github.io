@@ -1,0 +1,30 @@
+header {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url("/header.png");
+  background-repeat: repeat-x;
+  width: 100%;
+  top: 0;
+  margin-top: 0;
+  height: 160px;
+}
+
+header h1 {
+  text-align: center;
+  width: 460px;
+  height: 40px;
+  padding: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/h1.png");
+  background-repeat: repeat-x;
+
+  color: #822f22;
+  font-family: "Pixelify Sans", sans-serif;
+
+  font-size: xx-large;
+  margin-bottom: 0;
+}

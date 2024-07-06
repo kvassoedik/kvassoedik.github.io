@@ -1,0 +1,47 @@
+div #root {
+  margin-top: 0;
+}
+
+main {
+  min-height: 55rem;
+  height: fit-content;
+}
+
+div#box {
+  columns: 2;
+  column-gap: 30px;
+
+  /* font-family: "Lucida Console", "Courier New", monospace; */
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: x-large;
+  text-align: justify;
+  background-color: #f1c585;
+  color: #822f22;
+  padding: 15px 30px 30px 30px;
+
+  margin-left: 270px;
+  margin-right: 0;
+  margin-bottom: 400px;
+  margin-top: 15px;
+
+  right: 20px;
+  left: 0;
+
+  min-height: 400px;
+  min-width: 500px;
+
+  border: solid 8px #d18a4f;
+  position: absolute;
+  display: inline-block;
+}
+
+a {
+  margin: 20px;
+  text-decoration: none;
+}
+
+body {
+  background-color: #28adcf;
+  width: 100%;
+  margin: 0 0 0 0;
+}
