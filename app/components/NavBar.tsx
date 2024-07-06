@@ -5,11 +5,11 @@ export default function NavBar() {
     <aside>
       <nav id="main-nav">
         <a href="/">Main page</a>
-        <a href="/routes/about">About me</a>
-        <a href="/routes/projects">Portfolio</a>
+        <a href="/about">About me</a>
+        <a href="/projects">Portfolio</a>
       </nav>
       <nav id="sec-nav">
-        <a href="/routes/comics">Comics</a>
+        <a href="/comics">Comics</a>
       </nav>
     </aside>
   );
