@@ -24,6 +24,8 @@
   display: inline-flex;
   margin-top: 10px;
   margin-right: 10px;
+  width: auto;
+  height: auto;
 }
 
 #error-msg {
@@ -34,7 +36,7 @@
   font-family: "Lucida Console", "Courier New", monospace;
   font-family: "Pixelify Sans", sans-serif;
   font-size: x-large;
-  text-align: justify;
+  text-align: center;
   background-color: #f1c585;
   color: #822f22;
   padding: 15px 30px 30px 30px;

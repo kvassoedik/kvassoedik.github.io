@@ -1,3 +1,4 @@
+"use server"
 import { formatDistanceToNowStrict } from "date-fns";
 import { getID } from "./getID";
 
@@ -25,10 +26,10 @@ export async function getComics(email: string) {
   ).toLocaleDateString();
 
   return [
-    JSON.parse(JSON.stringify(await js)).img,
-    JSON.parse(JSON.stringify(await js)).safe_title,
-    date,
-    JSON.parse(JSON.stringify(await js)).alt,
-    formatDistanceToNowStrict(date) + " ago",
+    JSON.parse(JSON.stringify(await js)).img.toString(),
+    JSON.parse(JSON.stringify(await js)).safe_title as string,
+    date as string,
+    JSON.parse(JSON.stringify(await js)).alt as  string,
+    formatDistanceToNowStrict(date) + " ago" as string,
   ];
 }

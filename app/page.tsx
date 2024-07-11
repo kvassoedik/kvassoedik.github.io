@@ -1,6 +1,12 @@
 import Image from "next/image";
 import "./styles/index.css";
 import "./styles/main.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "My site",
+  description: "This is the main page where I tell my story and show my little capybara drawing."
+};
 
 export default function MainPage() {
   return (

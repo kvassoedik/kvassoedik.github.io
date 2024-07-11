@@ -1,5 +1,11 @@
 import AboutList from "@/app/components/AboutList";
 import "@/app/styles/main.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About me",
+  description: "On this page, I write about my current stack and interests."
+};
 
 export default function AboutPage() {
   return (

@@ -1,3 +1,5 @@
+"use server"
+
 interface API {
   url: URL;
   urlParams?: URLSearchParams;

@@ -1,4 +1,10 @@
 import PortfolioProject from "@/app/components/PortfolioProject";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Portfolio",
+  description: "This is the page with some of my done, ongoing and abandoned projects."
+};
 
 export default function PortfolioPage() {
   return (
